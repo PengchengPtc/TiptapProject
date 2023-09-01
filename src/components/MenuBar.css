@@ -1,0 +1,15 @@
+.menu-bar {
+    display: none; /* 默认情况下隐藏工具栏 */
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    padding: 10px;
+    z-index: 1000;
+    transition: opacity 0.2s, transform 0.2s;
+  }
+  
+  .menu-bar.is-active {
+    display: block; /* 当有选中内容时显示工具栏 */
+    opacity: 1;
+    transform: translate(-50%, -100%);
+  }
+  
